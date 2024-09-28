@@ -1,7 +1,7 @@
 export const HeroSection = () => {
     return (
       <>
-        <div className="flex flex-col sm:flex-row justify-between lg:px-10 items-center h-full gap-6 mt-16 animate-fadeIn">
+        <div className="flex flex-col sm:flex-row justify-between items-center h-full gap-6 mt-16 animate-fadeIn pb-20">
           {/* Left Section */}
           <div className="flex flex-col gap-1 animate-slideInFromLeft">
             <p className="text-6xl font-bebas">
@@ -23,13 +23,13 @@ export const HeroSection = () => {
               </a>
               <a
                 className="rounded-full py-3 bg-[#222222] text-[#D3E97A] px-3 transition duration-300 ease-in-out transform hover:scale-110 hover:bg-[#333333]"
-                href="#"
+                href="https://www.linkedin.com/in/ali-al-yaman-b881b7314/" rel="noopener" target="_blank"
               >
                 <img src="assets/icons/bxl-linkedin.svg.png" alt="LinkedIn" />
               </a>
               <a
                 className="rounded-full py-3 bg-[#222222] text-[#D3E97A] px-3 transition duration-300 ease-in-out transform hover:scale-110 hover:bg-[#333333]"
-                href="#"
+                href="https://github.com/AliAlYaman?tab=repositories" rel="noopener" target="_blank"
               >
                 <img src="assets/icons/bxl-github.svg.png" alt="GitHub" />
               </a>
@@ -45,6 +45,7 @@ export const HeroSection = () => {
             />
           </div>
         </div>
+        <hr className="border-t  border-gray-400 "/> 
       </>
     );
   };
