@@ -1,7 +1,7 @@
 export const HeroSection = () => {
     return (
       <>
-        <div className="flex flex-col sm:flex-row justify-between items-center h-full gap-6 mt-16 animate-fadeIn pb-20">
+        <div className="flex flex-col sm:flex-row justify-between items-center h-full gap-6 mt-16 animate-fadeIn pb-32">
           {/* Left Section */}
           <div className="flex flex-col gap-1 animate-slideInFromLeft">
             <p className="text-6xl font-bebas">
@@ -45,7 +45,6 @@ export const HeroSection = () => {
             />
           </div>
         </div>
-        <hr className="border-t  border-gray-400 "/> 
       </>
     );
   };

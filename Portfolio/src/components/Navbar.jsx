@@ -7,11 +7,11 @@ export const Navbar = () => {
   return (
     <>
       <div className="flex justify-between items-center h-[80px] font-bebas">
-        <p className="text-[30px]">Ali Al Yaman</p>
+        <Link to='/' className="text-[30px]">Ali Al Yaman</Link>
         {/* Desktop Links */}
-        <div className="hidden md:flex justify-center items-center gap-8">
+        <div className="hidden text-2xl md:flex justify-center items-center gap-8">
           <Link to=''>Work</Link>
-          <Link to=''>About</Link>
+          <Link to='/about'>About</Link>
           <Link to=''>Contact</Link>
         </div>
         {/* Mobile Hamburger Menu */}
@@ -40,7 +40,7 @@ export const Navbar = () => {
       {isOpen && (
         <div className="md:hidden flex flex-col gap-6  mt-4">
           <Link to='' className="p-4 bg-[#D3E97A] text-black font-semibold rounded-full" onClick={() => setIsOpen(false)}>Work</Link>
-          <Link to='' className="p-4 bg-[#D3E97A] text-black font-semibold rounded-full" onClick={() => setIsOpen(false)}>About</Link>
+          <Link to='/about' className="p-4 bg-[#D3E97A] text-black font-semibold rounded-full" onClick={() => setIsOpen(false)}>About</Link>
           <Link to='' className="p-4 bg-[#D3E97A] text-black font-semibold rounded-full" onClick={() => setIsOpen(false)}>Contact</Link>
         </div>
       )}

@@ -18,11 +18,13 @@ const projects = [
       year: "November 2024",
     },
     {
-      title: "E-commerce product page",
-      description: "An elegant and user-friendly e-commerce product page designed to showcase products in the best light. The page includes high-quality images, detailed product descriptions, and an easy-to-use shopping cart system.",
-      image: "assets/projects/Estatein.png",
-      type: "UX Design",
-      year: 2022,
+      title: "Boxcars Car Website",
+      description: "I developed a dynamic Mercedes car website utilizing React for the front end and Laravel for the back end. The website is powered by a PostgreSQL database to manage and store data, ensuring scalability and security. It features a modern, responsive design showcasing the full range of Mercedes cars, with detailed product pages, car specifications, and an intuitive user interface for seamless navigation. The project is hosted on Vercel for the front-end deployment and AWS for backend services, ensuring reliable and fast performance. This setup allows users to explore and learn more about Mercedes cars with a smooth and engaging experience.",
+      image: "assets/projects/Cars.png",
+      type: "Fullstack",
+      year: "November 2024",
+      href: "https://boxcars-frontend.vercel.app/",
+      github: "https://github.com/AliAlYaman/Boxcars-Frontend"
     },
   ];
   
