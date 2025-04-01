@@ -248,8 +248,8 @@ const AboutPage = () => {
               <button
                 onClick={() => {
                   const link = document.createElement("a");
-                  link.href = "/AliAlYaman-CV.pdf"; // Direct path to file in public folder
-                  link.download = "AliAlYaman-CV.pdf"; // Just the filename for download
+                  link.href = "/AliAlYaman-CV.docx.pdf"; // Direct path to file in public folder
+                  link.download = "AliAlYaman-CV.docx.pdf"; // Just the filename for download
                   document.body.appendChild(link);
                   link.click();
                   document.body.removeChild(link);
