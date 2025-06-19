@@ -71,6 +71,22 @@ const projectData = [
   },
   {
     id: "2",
+    title: "Cronos",
+    description: "Decentralized application that enables users to create custodial crypto wallets, deposit cryptocurrency, transfer tokens to other wallet addresses, and withdraw funds securely",
+    img:'images/cronos.png',
+    link:'https://backend-7jop.vercel.app/',
+    github:'https://github.com/AliAlYaman/Backend/tree/main/Web3'
+  },
+  {
+    id: "6",
+    title: "Chess Game",
+    description: "Players can join or create chess rooms and play against each other in real time. This frontend integrates with a WebSocket-powered Express backend and a MongoDB database for live gameplay state synchronization.",
+    img:'images/chess.png',
+    link:'https://backend-sigma-ashy-77.vercel.app/',
+    github:'https://github.com/AliAlYaman/Backend/tree/main/Web-Sockets'
+  },
+  {
+    id: "3",
     title: "Wisebet",
     description: "An AI-powered sports betting predictor that analyzes real-time data and historical trends to deliver high-probability picks with 72% proven accuracy.",
     img:'images/wisebet.png',
@@ -78,7 +94,7 @@ const projectData = [
     github:'https://github.com/AliAlYaman/Wisebet-Frontend'
   },
   {
-    id: "3",
+    id: "4",
     title: "Estatein",
     description: "A responsive real estate portal built with React and Laravel",
     img:'images/estatein.png',
@@ -86,7 +102,7 @@ const projectData = [
     github:'https://github.com/AliAlYaman/Estatein-Frontend'
   },
   {
-    id: "4",
+    id: "5",
     title: "Boxcars",
     description: "A sleek car gallery that elegantly displays vehicle collections with intuitive browsing and instant inquiry capabilities.",
     img:'images/boxcars.png',
