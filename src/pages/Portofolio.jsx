@@ -86,6 +86,14 @@ const projectData = [
     github:'https://github.com/AliAlYaman/Backend/tree/main/Web-Sockets'
   },
   {
+    id: "7",
+    title: "EC2 Instance",
+    description: "A Learning project to explore AWS services, especially deploying and managing EC2 instances. The goal is to gain hands-on experience with AWS infrastructure, deployment, and industry best practices.",
+     img:'images/aws.png',
+    link:'http://ec2-44-222-223-206.compute-1.amazonaws.com/',
+    github:'https://github.com/AliAlYaman/AWS-EC2'
+  },
+  {
     id: "3",
     title: "Wisebet",
     description: "An AI-powered sports betting predictor that analyzes real-time data and historical trends to deliver high-probability picks with 72% proven accuracy.",
